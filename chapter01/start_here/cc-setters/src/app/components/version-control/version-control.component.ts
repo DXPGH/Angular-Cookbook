@@ -19,7 +19,7 @@ export class VersionControlComponent implements OnInit {
 
   formSubmit() {
     if (!this.versionForm.valid) {
-      alert('Invalid version value. Please use symantic versioning')
+      alert('Invalid version value. Please use sematic versioning')
       return;
     }
     this.versionName = this.versionForm.get('version').value;
